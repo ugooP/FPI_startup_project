@@ -17,7 +17,7 @@ title.reveal('.carousel-item1 p', { delay: 600 })
 /* PRESENTATION SECTION */
 const presentation = ScrollReveal({
     distance: '40px',
-    opacity: null,
+    opacity: 0,
     duration: 1000,
     reset: true
 })
@@ -31,6 +31,25 @@ const slideLeft = {
 presentation.reveal('#Lorem1', slideRight)
 presentation.reveal('#Lorem2', slideLeft)
 presentation.reveal('#Lorem3', slideRight)
+
+/* VALUES SECTION */
+const values = ScrollReveal({
+    opacity: 0,
+    reset: true,
+    origin: 'left'
+})
+const h3 = {
+    duration: 800,
+    distance: '40px'
+}
+const p = {
+    delay: 300,
+    duration: 1000,
+    distance: '80px'
+}
+
+//values.reveal('.value-card h3', h3)
+//values.reveal('.value-card p', p)
 
 /* PRESTATIONS SECTION */
 const prestation = ScrollReveal({

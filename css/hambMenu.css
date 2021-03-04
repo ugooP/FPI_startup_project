@@ -62,6 +62,7 @@
     text-align: center;
 }
 .hamb-menu-container ul li {
+    font-size: 18px;
     padding: 5px 0;
     margin: 5px 0;
     display: inherit;

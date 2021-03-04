@@ -1,0 +1,226 @@
+/* RESPONSIVE */
+@media (max-width: 950px) {
+    /* PRESENTATION SECTION */
+    .presentation img {
+        height: 60% !important;
+    }
+    /* VALUES SECTION */
+    .value-card {
+        width: 46%;
+    }
+    .value-img {
+        width: 50%;
+    }
+    .value-img2 img {
+        border-radius: 0;
+    }
+    .value-card:nth-child(3) {
+        border-radius: 0;
+    }
+    .value-card:nth-child(5) {
+        border-radius: 0 0 0 15px;
+    }
+    .value-img1 img {
+        border-radius: 0 15px 0 0;
+    }
+    /* PRESTATIONS SECTION */
+    .service {
+        width: 70%;
+    }
+    /* CONTACT SECTION */
+    #contact-form-container form {
+        width: 80%;
+    }
+    /* FOOTER */
+    .sitePlanTitle {
+        display: none;
+    }
+    footer a, footer li {
+        font-size: 15px;
+    }
+    footer .copyrights {
+        margin-right: 2%;
+    }
+    footer .logo_fpi {
+        height: 50px;
+    }
+}
+@media (max-width: 750px) {
+    /* CAROUSEL SECTION */
+    .carousel-item h1, .carousel-item p {
+        width: 93%;
+    }
+    .last-carousel-item img {
+        display: none;
+    }
+    /* BACK TO TOP BTN */
+    .back-to-top-btn {
+        right: 5px;
+    }
+}
+@media (max-width: 700px) {
+    /* PRESENTATION SECTION */
+    .presentation-title-container {
+        padding: 5vh 0 0 0;
+    }
+    /* VALUES SECTION */
+    .value-card {
+        width: 92%;
+        padding: 4%;
+    }
+    .value-img {
+        display: none;
+    }
+    .value-card:nth-child(1) {
+        border-radius: 15px 15px 0 0;
+    }
+    .value-card:nth-child(5) {
+        border-radius: 0;
+    }
+    .value-card:nth-child(6) {
+        border-radius: 0 0 15px 15px;
+    }
+    /* PRESTATIONS SECTION */
+    .service {
+        width: 100%;
+    }
+    /* HEADER MENU */
+    header ul {
+        display: none !important;
+    }
+    header .hamb-container {
+        display: inline-block;
+    }
+}
+@media (max-width: 600px) {
+    /* CAROUSEL SECTION */
+    .dots-container {
+        left: 43%;
+    }
+    /* PRESENTATION SECTION */
+    #imgLorem1, #imgLorem2, #imgLorem3 {
+        display: none;
+    }
+    #Lorem1, #Lorem3 {
+        justify-content: flex-end;
+    }
+    #Lorem2 {
+        justify-content: flex-start;
+    }
+    .txt {
+        max-width: 100%;
+    }
+    /* BACK TO TOP BTN */
+    .back-to-top-btn {
+        width: 15px;
+        height: 15px;
+    }
+    .back-to-top-btn img {
+        width: 15px;
+    }
+    /* FOOTER */
+    footer {
+        height: 100px;
+    }
+    footer ul, footer .copyrights {
+        display: none;
+    }
+    footer .aboutUsLink {
+        margin-right: 10%;
+    }
+    footer .logo_fpi {
+        display: block;
+        height: 50px;
+    }
+}
+@media (max-width: 500px) {
+    /* CAROUSEL SECTION */
+    .carousel-item {
+        width: 88%;
+        padding-left: 12%;
+    }
+    .carousel-item h1, .carousel-item p {
+        width: 85%;
+    }
+    .carousel-item h1 {
+        font-size: 40px;
+    }
+    /* PRESENTATION SECTION */
+    .Txt1, .Txt2, .Txt3 {
+        width: 100%;
+    }
+    .Titre1, .Titre2, .Titre3 {
+        font-size: 30px;
+    }
+    #Lorem1, #Lorem2, #Lorem3 {
+        margin-top: 5vh;
+    }
+}
+@media (max-width: 450px) {
+    /* CAROUSEL SECTION */
+    .next-slide {
+        right: 10px;
+    }
+    .prev-slide {
+        left: 10px;
+    }
+    /* BACK TO TOP BTN */
+    .back-to-top-btn {
+        display: none !important;
+    }
+    /* SERVICES SECTION */
+    .services-title-container img {
+        width: 70px;
+        height: 70px;
+    }
+    /* CONTACT SECTION */
+    #contact-form-container {
+        height: 500px;
+    }
+    #contact-form-container form button {
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+}
+@media (max-width: 400px) {
+    /* PRESTATION SECTION */
+    .services-title-container img {
+        display: none;
+    }
+    /* CONTACT SECTION */
+    .form-contact-inputs {
+        flex-direction: column;
+    }
+    .form-contact-inputs div {
+        width: 100%;
+    }
+    .form-contact-inputs div:first-of-type {
+        margin-right: 0;
+    }
+    .textarea-container label {
+        top: 111px;
+    }
+    .form-group .email-label {
+        top: 51px;
+    }
+}
+@media (max-width: 370px) {
+    /* CAROUSEL SECTION */
+    .carousel-item .btns a {
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+    /* VALUES SECTION */
+    .values-container {
+        padding: 5vh 10%;
+    }
+    /* CAROUSEL SECTION */
+    .dots-container {
+        left: 40%;
+    }
+}
+@media (max-width: 290px) {
+    .title-container h2 {
+        font-size: 40px;
+    }
+}

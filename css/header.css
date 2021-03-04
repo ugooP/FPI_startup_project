@@ -45,3 +45,6 @@ header li span {
 header li:hover span {
     width: 100%;
 }
+.headerAboutUs {
+    width: 50px;   
+}
