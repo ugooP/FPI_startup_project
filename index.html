@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/hambMenu.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <br>
@@ -23,8 +24,24 @@
                 <li><a href="#values-section">Nos valeurs</a><span></span></li>
                 <li><a href="#services-section">Prestations</a><span></span></li>
                 <li><a href="#contact-section">Contact</a><span></span></li>
-            </ul> 
+            </ul>
+            <div class="hamb-container">
+                <span class="topSpan"></span>
+                <span class="middleSpan"></span>
+                <span class="bottomSpan"></span>
+            </div>
         </header>
+
+        <!-- HAMBURGER MENU CONTAINER -->
+        <div class="hamb-menu-container closed">
+            <ul>
+                <li><a href="#home-section">Accueil</a></li>
+                <li><a href="#presentation-section">Présentation</a></li>
+                <li><a href="#values-section">Nos valeurs</a></li>
+                <li><a href="#services-section">Prestations</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
 
         <!-- HOME SECTION -->
         <div id="home-section">
@@ -276,5 +293,6 @@
         <script src="js/prestations.js"></script>
         <script src="js/backToTopBtn.js"></script>
         <script src="js/scrollReveal.js"></script>
+        <script src="js/hambMenu.js"></script>
     </body>
 </html>

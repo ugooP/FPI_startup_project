@@ -29,6 +29,7 @@ body {
     margin: 0;
     color: #4EADAD;
 }
+
 /* BACK TO TOP BUTTON */
 .back-to-top-btn {
     width: 25px;
@@ -623,13 +624,29 @@ form label {
     #contact-form-container form {
         width: 80%;
     }
+    /* PRESTATIONS SECTION */
+    .service {
+        width: 70%;
+    }
 }
 @media (max-width: 700px) {
     .back-to-top-btn {
         right: 10px;
     }
+    /* PRESENTATION SECTION */
     .presentation-title-container {
         padding: 5vh 0 0 0;
+    }
+    /* PRESTATIONS SECTION */
+    .service {
+        width: 100%;
+    }
+    /* HEADER MENU */
+    header ul {
+        display: none !important;
+    }
+    header .hamb-container {
+        display: inline-block;
     }
 }
   
