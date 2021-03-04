@@ -15,7 +15,7 @@ header img {
     align-self: center;
 }
 header ul {
-    min-width: 500px;
+    width: 500px;
     position: relative;
     height: 100%;
     margin-right: 20%;
@@ -26,6 +26,9 @@ header ul {
     list-style: none;
     margin: 0 5% 0 0;
     padding: 0;
+}
+header .headerAboutUs {
+    width: 100px !important;
 }
 header a {
     color: black;
