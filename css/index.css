@@ -587,29 +587,43 @@ form label {
   .box {
     display: flex;
     flex-direction: row;
+    /*padding: 0px 0px 0px 10px;*/
   }
 
   .box2 {
     display: flex;
     flex-direction: row;
+    
   }
 
   .area1{
     background-color: #E5C163;
+    height: 100%;  
+    width: 100%;
   }
   .area2{
-    
+    height: 100%;  
+    width: 100%;
   }
   .area3{
     background-color: #F3ECE7;
+    height: 200%;  
+    width: 100%;
   }
   .area4{
+    height: 100%;  
+    width: 100%;
   }
   .area5{
     background-color: #2EC97F;
+    height: 200%; 
+    width: 100%;
+    
   }
   .area6{
    background-color: #4EADAD;
+   height: 200%;   
+    width: 100%;
   }
 
 
