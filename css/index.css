@@ -17,7 +17,7 @@ body {
     padding-top: 5vh;
 }
 .title-container h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
 }
 .title-container span {
@@ -459,6 +459,10 @@ form label {
 /* OUR VALUES SECTION */
 
 /* OUR VALUES FORM */
+.values-title-container {
+    color: black;
+    margin-bottom: 5vh;
+}
 #values-section {
     padding-bottom: 30vh;
 }
