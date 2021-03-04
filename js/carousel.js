@@ -4,6 +4,7 @@ const dots = document.querySelectorAll('.dots-container a')
 const nextSlideBtn = document.querySelector('.next-slide')
 const prevSlideBtn = document.querySelector('.prev-slide')
 
+// Go to the next slide
 nextSlideBtn.addEventListener('click', () => {
     const slideWidth = carousel.getBoundingClientRect().width
     const index = getActiveSlide()
@@ -26,11 +27,13 @@ nextSlideBtn.addEventListener('click', () => {
     }
 })
 
+// Go to the previous slide
 prevSlideBtn.addEventListener('click', () => {
     const slideWidth = carousel.getBoundingClientRect().width
     const index = getActiveSlide()
     const toScroll = (index - 1) * slideWidth
 
+    // Check if the active slide is the last slide of the carousel
     if (index > 0) {
         carousel.scroll({
             top: 0,
@@ -48,8 +51,8 @@ prevSlideBtn.addEventListener('click', () => {
     }
 })
 
-
 function getActiveSlide() {
+    // Return the number of the slide on which the user is
     for (let i = 0; i < slides.length; i++) {
         const bounds = slides[i].getBoundingClientRect();
         if (bounds.x < 1 && bounds.x > -1) {
@@ -66,7 +69,7 @@ function updateActiveDot(n) {
             break
         }
     }
-
+    // Set the new active dot
     dots[n].classList.add('active')
 }
 

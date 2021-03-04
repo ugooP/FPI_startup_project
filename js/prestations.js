@@ -1,4 +1,5 @@
-const descriptions = $('.service-description')
+
+// The loop doesn't work...
 
 /* for (let i = 0; i < $('.service').length; i++) {
     $('.service')[i].addEventListener('click', () => {

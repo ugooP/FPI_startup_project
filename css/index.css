@@ -261,6 +261,7 @@ body {
     font-size: 15px;
     text-align: justify;
     display: none;
+    margin-top: 10px;
 }
 /* PRESENTATION SECTION */
 #presentation-section {
@@ -468,6 +469,7 @@ form label {
 .infoMsg {
     font-size: 13px;
     align-self: center;
+    margin-top: 15px;
 }
 
 /* OUR VALUES FORM */
