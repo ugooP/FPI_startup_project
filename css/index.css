@@ -591,3 +591,38 @@ form label {
         padding: 5vh 0 0 0;
     }
 }
+  } */
+
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .area1{
+    background-color: #E5C163;
+    height:"352px"
+  }
+  .area2{
+    height:"352px"
+    
+  }
+  .area3{
+    background-color: #F3ECE7;
+    height:"352px"
+  }
+  .area4{
+    height:"352px"
+  }
+  .area5{
+    background-color: #2EC97F;
+    height:"352px"
+  }
+  .area6{
+   background-color: #4EADAD;
+   height:"352px"
+  }
