@@ -255,22 +255,21 @@ body {
     display: none;
 }
 /* Présentation */
-.presentation{
+#presentation-section {
     background-color: #262C2B;
     color: white;
+}
+.presentation{
     display: flex;
     flex-direction: column;
     width: 100%;
-    
 }
-
 #Lorem1{
     display: flex;
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 10%;
     margin-top: 5%;
-    
 }
 #soustxt1{
     color:  #4EADAD;
@@ -297,7 +296,6 @@ body {
 #Motbleu1 {
     color:  #4EADAD;
 }
-
 #Lorem2{
     display: flex;
     justify-content: space-between;
@@ -457,6 +455,13 @@ form label {
 }
 
 /* OUR VALUES FORM */
+.values-title-container {
+    color: black;
+    margin-bottom: 5vh;
+}
+#values-section {
+    padding-bottom: 10vh;
+}
 .values-section {
     padding: 0 0 0 36px;
     display: flex;
@@ -466,13 +471,7 @@ form label {
     border-radius: 5% 0% 0% 0%;
     padding: 5.1% 2% 4% 1%;
     position: relative;
-.values-title-container {
-    color: black;
-    margin-bottom: 5vh;
-}
-#values-section {
-    padding-bottom: 30vh;
-}
+  }
 
 .adaptabilite{
     background-color: #E5C163;

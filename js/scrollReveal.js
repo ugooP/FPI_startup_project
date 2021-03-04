@@ -12,7 +12,7 @@ title.reveal('.title-container p', { delay: 400 })
 
 /* CAROUSEL SECTION */
 title.reveal('.carousel-item1 h1')
-title.reveal('.carousel-item1 p', { delay: 400 })
+title.reveal('.carousel-item1 p', { delay: 600 })
 
 /* PRESENTATION SECTION */
 const presentation = ScrollReveal({
