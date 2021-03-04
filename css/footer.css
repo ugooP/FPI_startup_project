@@ -48,4 +48,15 @@ footer .sitePlan{
     footer a, footer li {
         font-size: 15px;
     }
+    footer .copyrights {
+        margin-right: 2%;
+    }
+    footer .logo_fpi {
+        height: 50px;
+    }
+}
+@media (max-width: 950px) {
+    footer .logo_fpi {
+        display: none;
+    }
 }

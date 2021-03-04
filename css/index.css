@@ -583,3 +583,11 @@ form label {
         width: 80%;
     }
 }
+@media (max-width: 700px) {
+    .back-to-top-btn {
+        right: 10px;
+    }
+    .presentation-title-container {
+        padding: 5vh 0 0 0;
+    }
+}
