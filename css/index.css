@@ -462,6 +462,7 @@ form label {
 #values-section {
     padding-bottom: 10vh;
 }
+/* OUR VALUES FORM */
 .values-section {
     padding: 0 0 0 36px;
     display: flex;
@@ -471,9 +472,6 @@ form label {
     border-radius: 5% 0% 0% 0%;
     padding: 5.1% 2% 4% 1%;
     position: relative;
-  }
-
-.adaptabilite{
     background-color: #E5C163;
     opacity: 82%;
   }
