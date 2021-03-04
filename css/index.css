@@ -17,14 +17,15 @@ body {
     padding-top: 5vh;
 }
 .title-container h2 {
-    font-size: 30px;
+    font-size: 45px;
     margin: 0;
+    font-weight: 800;
 }
 .title-container span {
     color: #4EADAD;
 }
 .title-container p {
-    font-size: 13px;
+    font-size: 15px;
     margin: 0;
     color: #4EADAD;
 }
@@ -224,26 +225,32 @@ body {
 }
 .services-title-container img {
     width: 100px;
+    height: 100px;
     margin-right: 10%;
 }
-.services-container {
+.services-big-container {
     padding: 0 10%;
+}
+.service-container {
+    width: 100%;
+    display: flex;
+}
+.service-container:nth-child(1) {
+    justify-content: flex-start;
+}
+.service-container:nth-child(2) {
+    justify-content: center;
+}
+.service-container:nth-child(3) {
+    justify-content: flex-end;
 }
 .service {
     background-color: white;
     width: 38%;
     border-radius: 12px;
     padding: 1px 2%;
+    margin: 10px 0;
     cursor: pointer;
-}
-.service:nth-child(1) {
-    margin: 30px 60% 0 0;
-}
-.service:nth-child(2) {
-    margin: 30px 30% 0 30%;
-}
-.service:nth-child(3) {
-    margin: 30px 0 0 60%;
 }
 .service-title {
     font-weight: bold;
@@ -254,33 +261,41 @@ body {
     text-align: justify;
     display: none;
 }
-/* Présentation */
-.presentation{
+/* PRESENTATION SECTION */
+#presentation-section {
     background-color: #262C2B;
     color: white;
+    padding-bottom: 10vh;
+}
+.presentation-title-container {
+    padding: 10vh 0;
+}
+.presentation{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    
+    width: 80%;
+    padding: 0 10%;
 }
-
+.txt {
+    max-width: 60%;
+}
 #Lorem1{
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-top: 5%;
-    
+    align-items: center;
+    margin-top: 10vh;
+    height: 200px;
 }
 #soustxt1{
     color:  #4EADAD;
+    font-size: 14px;
 }
 .Titre1{
     font-weight: bold;
     font-size: 250%;
+    font-size: 30px;
 }
 .Txt1{
-    margin-left: 5%;
     float: right;
     width: 75%;
     display: flex;
@@ -290,26 +305,25 @@ body {
     text-align: right;
 }
 #imgLorem1{
-    max-width: 20%;
-    max-height: 20%;
+    border-radius: 5px;
+    height: 100%
 }
 #Motbleu1 {
     color:  #4EADAD;
 }
-
 #Lorem2{
     display: flex;
     justify-content: space-between;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    align-items: center;
+    margin-top: 10vh;
+    height: 200px;
 }
 .Titre2{
     font-size: 250%;
     font-weight: bold;
+    font-size: 30px;
 }
 .Txt2{
-    margin-left: 5%;
     float: right;
     width: 75%;
     align-items: flex-end;
@@ -317,10 +331,11 @@ body {
 }
 #soustxt2{
     color:  #4EADAD;
+    font-size: 14px;
 }
 #imgLorem2{
-    max-width: 20%;
-    max-height: 20%;
+    border-radius: 5px;
+    height: 100%
 }
 #Motbleu2 {
     color:  #4EADAD;
@@ -328,21 +343,22 @@ body {
 
 #Lorem3{
     display: flex;
-    margin-left: 5%;
-    margin-right: 10%;
     justify-content: space-between;
-    margin-bottom: 5%;
+    align-items: center;
     text-align: right;
+    margin-top: 10vh;
+    height: 200px;
 }
 #soustxt3{
     color:  #4EADAD;
+    font-size: 14px;
 }
 .Titre3{
     font-size: 250%;
     font-weight: bold;
+    font-size: 30px;
 }
 .Txt3{
-    margin-left: 5%;
     float: right;
     width: 75%;
     display: flex;
@@ -353,8 +369,8 @@ body {
     
 }
 #imgLorem3{
-    max-width: 20%;
-    max-height: 20%;
+    border-radius: 5px;
+    height: 100%
 }
 #Motbleu3 {
     color:  #4EADAD;
@@ -453,99 +469,128 @@ form label {
     align-self: center;
 }
 
-/* OUR VALUES SECTION */
-
 /* OUR VALUES FORM */
-/*.values-section {
+.values-title-container {
+    color: black;
+    margin-bottom: 5vh;
+}
+#values-section {
+    padding-bottom: 10vh;
+}
+/* OUR VALUES FORM */
+.values-section {
     padding: 0 0 0 36px;
     display: flex;
     align-items: flex-start;
-  }
-  .box1 {
+}
+.box1 {
     border-radius: 5% 0% 0% 0%;
     padding: 5.1% 2% 4% 1%;
     position: relative;
+}
+.adaptabilite{
     background-color: #E5C163;
     opacity: 82%;
-  }
-  .adaptabilite {
+}
+.adaptabilite {
     width: 164px;
     text-align: justify;
     position: absolute;
     left: 23px;
     top: 9px;
-  }
-  .text-adaptabilite {
+}
+.text-adaptabilite {
     width: 379px;
     text-align: justify;
     position: relative;
-  }
-  .architecture-1048092-1920-1 {
+}
+.architecture-1048092-1920-1 {
     margin-top: 3px;
-  }
-  .box2 {
+}
+.box2 {
     border-radius: 0% 5% 0% 0%;
     padding: 6.7% 2% 4% 1%;
     position: relative;
     background-color: #F3ECE7;
-  }
-  .accompagnement {
+}
+.accompagnement {
     width: 246px;
     text-align: justify;
     position: absolute;
     left: 26px;
     top: 9px;
-  }
-  .text-accompagnement {
+}
+.text-accompagnement {
     width: 500px;
     text-align: justify;
     position: relative;
-  }
-  .illu3 {
+}
+.illu3 {
     margin-bottom: 72px;
     padding: 0 0 0 36px;
     display: flex;
     align-items: flex-start;
     border-radius: 0% 0% 5% 0%;
-  }
-  .box3{
+}
+.box3{
     padding: 3.8% 2% 5% 2%;
     position: relative;
     background-color: #2EC97F;
     opacity: 67%;
-  }
+}
   
-  .rigueur {
+.rigueur {
     width: 103px;
     text-align: justify;
     position: absolute;
     left: 13px;
     top: 17px;
-  }
-  .text-rigueur {
+}
+.text-rigueur {
     width: 498px;
     text-align: justify;
     position: relative;
-  }
-  .box4 {
+}
+.box4 {
     border-radius: 0% 0% 5% 0%;
     padding: 6.75% 2% 0.43% 1%;
     position: relative;
     background-color: #4EADAD;
     opacity: 62%;
-  }
-  .bienveillance {
+}
+.bienveillance {
     width: 177px;
     text-align: justify;
     position: absolute;
     left: 26px;
     top: 0;
-  }
+}
   
-  .text-bienveillance {
+.text-bienveillance {
     width: 357px;
     text-align: justify;
     position: relative;
+}
+
+/* RESPONSIVE */
+@media (max-width: 950px) {
+    /* PRESENTATION SECTION */
+    .presentation img {
+        height: 60% !important;
+    }
+    /* CONTACT SECTION */
+    #contact-form-container form {
+        width: 80%;
+    }
+}
+@media (max-width: 700px) {
+    .back-to-top-btn {
+        right: 10px;
+    }
+    .presentation-title-container {
+        padding: 5vh 0 0 0;
+    }
+}
   } */
 
   .box {
