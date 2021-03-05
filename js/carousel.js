@@ -4,6 +4,31 @@ const dots = document.querySelectorAll('.dots-container a')
 const nextSlideBtn = document.querySelector('.next-slide')
 const prevSlideBtn = document.querySelector('.prev-slide')
 
+// Each 5 seconds, go to the next slide
+setInterval(() => {
+    const slideWidth = carousel.getBoundingClientRect().width
+    let index = getActiveSlide() + 1
+ 
+    // If user are at the end of the carousel, return to the start
+    if (index == slides.length) {
+        index = 0
+
+        carousel.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+        updateActiveDot(index)
+    } else {
+        carousel.scroll({
+            top: 0,
+            left: slideWidth * index,
+            behavior: 'smooth'
+        })
+        updateActiveDot(index)
+    }
+}, 5000)
+
 // Go to the next slide
 nextSlideBtn.addEventListener('click', () => {
     const slideWidth = carousel.getBoundingClientRect().width

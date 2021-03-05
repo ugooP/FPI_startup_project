@@ -256,6 +256,8 @@ body {
 .service-title {
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .service-description {
     font-size: 15px;
