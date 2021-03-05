@@ -499,25 +499,24 @@ form label {
     height: 100%;
 }
 .value-card:nth-child(1) {
-    background-color: rgba(230, 193, 99, .5);
+    background-color: rgb(228, 202, 139);
     border-radius: 15px 0 0 0;
 }
 .value-card:nth-child(3) {
-    background-color: rgba(243, 236, 231, .9);
+    background-color: rgba(243, 236, 231);
     border-radius: 0 15px 0 0;
 }
 .value-card:nth-child(5) {
-    background-color: rgba(46,201,127, .5);
+    background-color: rgb(153, 228, 192);
 
 }
 .value-card:nth-child(6) {
-    background-color: rgba(78, 173, 173, .5);
+    background-color: rgb(121, 185, 185);
     border-radius: 0 0 15px 0;
 }
 
 
 .value-card:nth-child(1):hover {
-    background-color: rgba(230, 193, 99, .5);
     border-radius: 15px 0 0 0;
     box-shadow: -5px -5px 20px 0px rgba(0,0,0,0.4);
     -ms-transform: scale(1.5); 
@@ -528,7 +527,6 @@ form label {
     transition: all .4s
 }
 .value-card:nth-child(3):hover {
-    background-color: rgba(243, 236, 231, .9);
     box-shadow: 5px -5px 20px 0px rgba(0,0,0,0.4);
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5); 
@@ -538,7 +536,6 @@ form label {
     transition: all .4s
 }
 .value-card:nth-child(5):hover {
-    background-color: rgba(46,201,127, .5);
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
@@ -549,7 +546,6 @@ form label {
 
 }
 .value-card:nth-child(6):hover {
-    background-color: rgba(78, 173, 173, .5);
     box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
