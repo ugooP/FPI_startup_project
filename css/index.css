@@ -565,6 +565,7 @@ form label {
     transform: scale(1.05); 
     transition: transform .3s;
     opacity: 100%;
+    border-radius: 0 0 0 15px;
 }
 
 .value-img1:hover{
