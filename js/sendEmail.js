@@ -23,39 +23,14 @@ document.querySelector('#send-mail-btn').addEventListener('click', (event) => {
     if (isInputsValid(params)) {
         infoMsg.innerHTML = ''
         // Send email
-        emailjs.send(SERVICE_ID, TEMPLATE_ID, params, USER_ID)
-        .then(() => {
+        /* .then(() => {
             // Display success message and reset all inputs
             successMsg('Email envoyé')
             nameInput.value = ''
             mailInput.value = ''
             messageArea.value = ''
-        })
-    }
-
-    // -------------------------------------------------------------------------------------------
-    // ANOTHER SOLUTION TO SEND AN EMAIL //
-
-    /* const secureToken = 'a4c7bbc3-5c29-4414-a618-772f1ed811f6'
-        const recipientMail = 'ugo.prenat@gmail.com'
-    
-        Email.send({
-            SecureToken: secureToken,
-            To: recipientMail,
-            From: recipientMail,
-            Subject: `${params.fromName} à un nouveau projet à vous proposer`,
-            Body: `${params.message} \n Répondre à ${params.fromName} : ${params.fromMail}`
-        })
-        .then((message) => {
-            // Display success message and reset all inputs
-            successMsg('Email envoyé')
-            nameInput.value = ''
-            mailInput.value = ''
-            messageArea.value = ''
-        })*/
-    // -------------------------------------------------------------------------------------------
-
-})
+        }) */
+}
 
 function isInputsValid(params) {
     // Check the validity of all inputs
